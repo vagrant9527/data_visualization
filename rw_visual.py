@@ -16,8 +16,13 @@ while True:
 
     #隐藏坐标轴
     #todo:
-    # plt.axes().get_xaxis().set_visible('b')
-    # plt.axes().get_yaxis().set_visible('b')
+    # plt.axes().get_xaxis().set_visible(False)
+    # plt.axes().get_yaxis().set_visible(False)
+
+    # plt.axis('off')
+    # ax = plt.gca()
+    # ax.get_xaxis().set_visible(False)
+    # ax.get_yaxis().set_visible(False)
 
     plt.show()
 
